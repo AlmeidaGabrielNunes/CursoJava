@@ -9,7 +9,7 @@ public class Program {
 		// Define o Locale padrão para os Estados Unidos
 		Locale.setDefault(Locale.US); 
 		Scanner sc = new Scanner(System.in);
-		Triangle x,y;
+		Triangle x,y; //declarando classe
 		x = new Triangle();
 		y = new Triangle();
 		System.out.println("Enter the measures of triangle X: ");
