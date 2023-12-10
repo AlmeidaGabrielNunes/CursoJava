@@ -10,7 +10,7 @@ public class Program {
 		Locale.setDefault(Locale.US); 
 		Scanner sc = new Scanner(System.in);
 		Triangle x,y; //declarando classe
-		x = new Triangle();
+		x = new Triangle(); //criando novos objetos
 		y = new Triangle();
 		System.out.println("Enter the measures of triangle X: ");
 		x.a = sc.nextDouble();
