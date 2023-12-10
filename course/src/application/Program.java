@@ -34,7 +34,7 @@ public class Program {
 		}else {
 			System.out.println("The Larger area is: Y");
 		}
-		sc.close();
+		sc.close(); //fecha o scanner, não é obrigatório, mas faz parte das boas práticas
 	}
 
 }
