@@ -14,6 +14,9 @@ public class Program1 {
 		products.name = sc.nextLine();
 		System.out.println("Price: ");
 		products.price = sc.nextDouble();
+		System.out.println("Quantity: ");
+		products.quantity = sc.nextInt();
+		
 	}
 
 }
