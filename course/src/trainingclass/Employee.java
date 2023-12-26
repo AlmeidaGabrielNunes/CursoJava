@@ -1,4 +1,5 @@
 package trainingclass;
+
 public class Employee {
 
 	public String name;
@@ -13,7 +14,6 @@ public class Employee {
 	}
 	
 	public String toString() {
-		return "Employee: " + name
-				+ ", $" + netSalary();
+		return name	+ ", $" + String.format("%.2f",netSalary());
 	}
 }

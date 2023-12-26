@@ -14,7 +14,7 @@ public class Exercise2 {
 		emp.grossSalary = sc.nextDouble();
 		System.out.println("Tax: ");
 		emp.tax = sc.nextDouble();
-		System.out.println(emp);
+		System.out.println("Employee: " + emp);
 		
 		System.out.println("Which percentage do you want to increase salary?");
 		double percentage = sc.nextDouble();
