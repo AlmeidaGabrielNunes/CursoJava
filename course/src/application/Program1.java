@@ -17,6 +17,7 @@ public class Program1 {
 		System.out.println("Quantity: ");
 		products.quantity = sc.nextInt();
 		
+		System.out.println(products);
 	}
 
 }
