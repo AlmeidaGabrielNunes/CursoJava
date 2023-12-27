@@ -1,5 +1,4 @@
 package trainingclass;
-
 public class Employee {
 
 	public String name;

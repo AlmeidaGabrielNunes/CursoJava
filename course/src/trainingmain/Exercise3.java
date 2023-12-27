@@ -1,6 +1,5 @@
 package trainingmain;
 import java.util.Scanner;
-
 import trainingclass.Aluno;
 
 public class Exercise3 {
