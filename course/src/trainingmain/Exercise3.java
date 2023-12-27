@@ -18,6 +18,8 @@ public class Exercise3 {
 		
 		aluno.calculate();
 		aluno.cheking();
+		
+		sc.close();
 	}
 
 }
