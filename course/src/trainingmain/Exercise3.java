@@ -5,7 +5,7 @@ import trainingclass.Aluno;
 public class Exercise3 {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); //
 		Aluno aluno = new Aluno();
 		System.out.println("Student name :");
 		aluno.name = sc.nextLine();
@@ -18,6 +18,8 @@ public class Exercise3 {
 		
 		aluno.calculate();
 		aluno.cheking();
+		
+		sc.close();
 	}
 
 }

@@ -17,7 +17,7 @@ public class Exercise1 {
 		
 		System.out.println(x);
 		
-		
+		sc.close();
 	}
 
 }

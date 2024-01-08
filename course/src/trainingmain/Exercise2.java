@@ -20,7 +20,7 @@ public class Exercise2 {
 		double percentage = sc.nextDouble();
 		emp.increaseSalary(percentage);
 		System.out.println(" Updated salary: " + emp);
-		
+		sc.close();
 
 	}
 
