@@ -8,19 +8,19 @@ public class Program1 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		Products products = new Products();
+		
 		System.out.println("Enter product Data: ");
 		System.out.println("Name: ");
-		products.name = sc.nextLine();
+		String name = sc.nextLine();
 		System.out.println("Price: ");
-		products.price = sc.nextDouble();
+		Double price = sc.nextDouble();
 		System.out.println("Quantity: ");
-		products.quantity = sc.nextInt();
-		
+		int quantity = sc.nextInt();
+		Products products = new Products(name, price, quantity);
 		System.out.println("Product data: "  +products);
 		
 		System.out.println("Enter the number of products to be added in  stock ");
-		int quantity = sc.nextInt();
+		quantity = sc.nextInt();
 		products.addProducts(quantity);
 		
 		System.out.println("Updated product data: " + products);
