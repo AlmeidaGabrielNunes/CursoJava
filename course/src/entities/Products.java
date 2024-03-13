@@ -27,7 +27,7 @@ public void setPrice(double price) {
 }
 
 public int getQuantity() {
-	return quantity;
+	return quantity; // só get por regras de negócios
 }
 public double totalValueStock() {
 	return price*quantity;	

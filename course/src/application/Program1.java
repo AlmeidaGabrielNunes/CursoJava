@@ -8,7 +8,7 @@ public class Program1 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		
+		//atualização de get and set 
 		System.out.println("Enter product Data: ");
 		System.out.println("Name: ");
 		String name = sc.nextLine();
