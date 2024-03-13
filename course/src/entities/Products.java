@@ -5,17 +5,21 @@ public class Products {
 	private double price;
 	private int quantity;
 
-	
+ 
+
 public Products(String name, double price, int quantity) {
+	
 	this.name = name;
 	this.price = price;
-	this.quantity = quantity; //this é para diferenciar atributos de variáveis locais e para passar o próprio objeto como argumento na chamada de um método ouconstrutor. 
+	this.quantity = quantity;
 }
-public void setName(String name) {
-	this.name = name;
-}
+
 public String getName() {
 	return name;
+}
+
+public void setName(String name) {
+	this.name = name;
 }
 
 public double getPrice() {
@@ -27,8 +31,12 @@ public void setPrice(double price) {
 }
 
 public int getQuantity() {
-	return quantity; // só get por regras de negócios
+	return quantity;
 }
+
+
+
+
 public double totalValueStock() {
 	return price*quantity;	
 }

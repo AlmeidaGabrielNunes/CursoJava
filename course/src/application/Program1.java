@@ -16,7 +16,7 @@ public class Program1 {
 		Double price = sc.nextDouble();
 		System.out.println("Quantity: ");
 		int quantity = sc.nextInt();
-		Products products = new Products(name, price, quantity);
+		Products products = new Products(name, price,quantity);
 		
 		products.setName("Computer");
 		System.out.println("Update name: "  +products.getName());
