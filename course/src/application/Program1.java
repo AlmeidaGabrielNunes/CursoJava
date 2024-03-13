@@ -17,7 +17,11 @@ public class Program1 {
 		System.out.println("Quantity: ");
 		int quantity = sc.nextInt();
 		Products products = new Products(name, price, quantity);
-		System.out.println("Product data: "  +products);
+		
+		products.setName("Computer");
+		System.out.println("Update name: "  +products.getName());
+		products.setPrice(1299.32);
+		System.out.println("Updated price: " + products.getPrice());
 		
 		System.out.println("Enter the number of products to be added in  stock ");
 		quantity = sc.nextInt();
